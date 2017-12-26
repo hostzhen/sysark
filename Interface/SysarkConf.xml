@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="gb2312"?>
+<ArkConf num_dlg="1">
+  <Dlalog ordinal="1" label="进程" num_columns="5" num_rows="">
+    <Column ordinal="1" label="映象名称" width="0.2"/>
+    <Column ordinal="2" label="进程ID" width="0.1"/>
+    <Column ordinal="3" label="父进程ID" width="0.1"/>
+    <Column ordinal="4" label="映象路径" width="0.5"/>
+    <Column ordinal="5" label="EPROCESS" width="0.1"/>
+  </Dlalog>
+  <Dlalog ordinal="2" label="驱动模块" num_columns="7" num_rows="">
+    <Column ordinal="1" label="驱动名称" width="0.1"/>
+    <Column ordinal="2" label="基地址" width="0.1"/>
+    <Column ordinal="3" label="大小" width="0.1"/>
+    <Column ordinal="4" label="驱动对象" width="0"/>
+    <Column ordinal="5" label="驱动路径" width="0.5"/>
+    <Column ordinal="6" label="服务名" width="0.1"/>
+    <Column ordinal="7" label="加载顺序" width="0.1"/>
+  </Dlalog>
+  <Dlalog ordinal="3" label="SSDT" num_columns="6" num_rows="">
+    <Column ordinal="1" label="序号" width="0.1"/>
+    <Column ordinal="2" label="函数名称" width="0.2"/>
+    <Column ordinal="3" label="当前函数地址" width="0.15"/>
+    <Column ordinal="4" label="Hook" width="0.1"/>
+    <Column ordinal="5" label="原始函数地址" width="0.15"/>
+    <Column ordinal="6" label="当前函数地址所在模块路径" width="0.3"/>
+  </Dlalog>
+  <Dlalog ordinal="4" label="ShadowSSDT" num_columns="6" num_rows="">
+    <Column ordinal="1" label="序号" width="0.1"/>
+    <Column ordinal="2" label="函数名称" width="0.2"/>
+    <Column ordinal="3" label="当前函数地址" width="0.15"/>
+    <Column ordinal="4" label="Hook" width="0.1"/>
+    <Column ordinal="5" label="原始函数地址" width="0.15"/>
+    <Column ordinal="6" label="当前函数地址所在模块路径" width="0.3"/>
+  </Dlalog>
+  <Dlalog ordinal="5" label="注册表" num_columns="3" num_rows="">
+    <Column ordinal="1" label="名称" width="0.3"/>
+    <Column ordinal="2" label="类型" width="0.2"/>
+    <Column ordinal="3" label="数据" width="0.5"/>
+  </Dlalog>
+  <Dlalog ordinal="6" label="文件" num_columns="6" num_rows="">
+    <Column ordinal="1" label="文件名称" width="0.2"/>
+    <Column ordinal="2" label="大小" width="0.1"/>
+    <Column ordinal="3" label="占用空间" width="0.2"/>
+    <Column ordinal="4" label="创建时间" width="0.2"/>
+    <Column ordinal="5" label="修改时间" width="0.2"/>
+    <Column ordinal="6" label="常规属性" width="0.2"/>
+  </Dlalog>
+  <Dlalog ordinal="7" label="启动项" num_columns="3" num_rows="">
+    <Column ordinal="1" label="名称" width="0.2"/>
+    <Column ordinal="2" label="类型" width="0.2"/>
+    <Column ordinal="3" label="启动路径" width="0.6"/>
+  </Dlalog>
+  <Dlalog ordinal="8" label="服务" num_columns="5" num_rows="">
+    <Column ordinal="1" label="服务名称" width="0.1"/>
+    <Column ordinal="2" label="状态" width="0.1"/>
+    <Column ordinal="3" label="启动类型" width="0.1"/>
+    <Column ordinal="4" label="描述" width="0.2"/>
+    <Column ordinal="5" label="映像路径" width="0.5"/>
+  </Dlalog>
+  <Dlalog ordinal="11" label="进程模块" num_columns="3" num_rows="">
+    <Column ordinal="1" label="模块路径" width="0.6"/>
+    <Column ordinal="2" label="基地址" width="0.2"/>
+    <Column ordinal="3" label="大小" width="0.2"/>
+  </Dlalog>
+  <Dlalog ordinal="12" label="进程线程" num_columns="6" num_rows="">
+    <Column ordinal="1" label="线程ID" width="0.1"/>
+    <Column ordinal="2" label="ETHREAD" width="0.15"/>
+    <Column ordinal="3" label="Teb" width="0.15"/>
+    <Column ordinal="4" label="优先级" width="0.15"/>
+    <Column ordinal="5" label="线程入口" width="0.15"/>
+    <Column ordinal="6" label="切换次数" width="0.15"/>
+  </Dlalog>
+  
+</ArkConf>
