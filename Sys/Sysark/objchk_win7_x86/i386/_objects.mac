@@ -1,0 +1,27 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\sysark.obj \
+ $(OBJ_PATH)\$O\datadef.obj \
+ $(OBJ_PATH)\$O\process.obj \
+ $(OBJ_PATH)\$O\processmodule.obj \
+ $(OBJ_PATH)\$O\processthread.obj \
+ $(OBJ_PATH)\$O\file.obj \
+ $(OBJ_PATH)\$O\drivermodule.obj \
+ $(OBJ_PATH)\$O\services.obj \
+ $(OBJ_PATH)\$O\startup.obj \
+ $(OBJ_PATH)\$O\protection.obj \
+ $(OBJ_PATH)\$O\ssdt.obj \
+ $(OBJ_PATH)\$O\shadowssdt.obj \
+
+
+
+
+
+# lowercased
+BASEDIR=d:\winddk\760016~1.1
+OBJECT_ROOT=d:\winddk\760016~1.1
+MAKEDIR_LOWERCASE=e:\qian\visual~1\rootkits\sysark\sysark
+OBJ_PATH=e:\qian\visual~1\rootkits\sysark\sysark
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

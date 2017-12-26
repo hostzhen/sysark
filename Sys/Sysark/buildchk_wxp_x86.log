@@ -1,0 +1,15 @@
+BUILD: Computing Include file dependencies:
+BUILD: null byte at offset 0x00000003
+BUILD: 6686 null bytes in file
+BUILD: Examining e:\qian\visual studio project\rootkits\sysark\sysark directory for files to compile.
+oacr invalidate root:x86chk /autocleanqueue
+1>Compiling and Linking e:\qian\visual studio project\rootkits\sysark\sysark *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>e:\qian\visual studio project\rootkits\sysark\sysark: TARGETPATH is obj
+1>BUILDMSG: _NT_TARGET_VERSION SET TO WINXP
+1>d:\winddk\7600.16385.1\bin\makefile.new(7117) : fatal error U1087: cannot have : and :: dependents for same target
+1>errors in directory e:\qian\visual studio project\rootkits\sysark\sysark
+1>d:\winddk\7600.16385.1\bin\makefile.new(7117) : error U1087: cannot have : and :: dependents for same target
+1>Stop.
+1>nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR= failed - rc = 2
+

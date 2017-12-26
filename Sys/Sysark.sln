@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sysark.WXP", "Sysark\Sysark.WXP.vcproj", "{4F6153C4-E52B-4377-8992-A5BED2337288}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		WXP checked (PREfast)|Win32 = WXP checked (PREfast)|Win32
+		WXP checked|Win32 = WXP checked|Win32
+		WXP free|Win32 = WXP free|Win32
+		WXP2K checked (PREfast)|Win32 = WXP2K checked (PREfast)|Win32
+		WXP2K checked|Win32 = WXP2K checked|Win32
+		WXP2K free|Win32 = WXP2K free|Win32
+		WXP64 checked (PREfast)|Win32 = WXP64 checked (PREfast)|Win32
+		WXP64 checked|Win32 = WXP64 checked|Win32
+		WXP64 free|Win32 = WXP64 free|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP checked (PREfast)|Win32.ActiveCfg = WXP checked (PREfast)|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP checked (PREfast)|Win32.Build.0 = WXP checked (PREfast)|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP checked (PREfast)|Win32.Deploy.0 = WXP checked (PREfast)|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP checked|Win32.ActiveCfg = WXP checked|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP checked|Win32.Build.0 = WXP checked|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP checked|Win32.Deploy.0 = WXP checked|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP free|Win32.ActiveCfg = WXP free|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP free|Win32.Build.0 = WXP free|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP free|Win32.Deploy.0 = WXP free|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP2K checked (PREfast)|Win32.ActiveCfg = WXP2K checked (PREfast)|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP2K checked (PREfast)|Win32.Build.0 = WXP2K checked (PREfast)|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP2K checked (PREfast)|Win32.Deploy.0 = WXP2K checked (PREfast)|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP2K checked|Win32.ActiveCfg = WXP2K checked|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP2K checked|Win32.Build.0 = WXP2K checked|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP2K checked|Win32.Deploy.0 = WXP2K checked|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP2K free|Win32.ActiveCfg = WXP2K free|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP2K free|Win32.Build.0 = WXP2K free|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP2K free|Win32.Deploy.0 = WXP2K free|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP64 checked (PREfast)|Win32.ActiveCfg = WXP64 checked (PREfast)|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP64 checked (PREfast)|Win32.Build.0 = WXP64 checked (PREfast)|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP64 checked (PREfast)|Win32.Deploy.0 = WXP64 checked (PREfast)|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP64 checked|Win32.ActiveCfg = WXP64 checked|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP64 checked|Win32.Build.0 = WXP64 checked|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP64 checked|Win32.Deploy.0 = WXP64 checked|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP64 free|Win32.ActiveCfg = WXP64 free|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP64 free|Win32.Build.0 = WXP64 free|Win32
+		{4F6153C4-E52B-4377-8992-A5BED2337288}.WXP64 free|Win32.Deploy.0 = WXP64 free|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

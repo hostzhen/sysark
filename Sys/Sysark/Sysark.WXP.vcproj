@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="Sysark.WXP"
+	ProjectGUID="{4F6153C4-E52B-4377-8992-A5BED2337288}"
+	RootNamespace="Sysark.WXP"
+	TargetFrameworkVersion="196613"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="WXP free|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Sysark.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -WXP free ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -WXP free . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=0;WINVER=0x0500"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="WXP checked|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Sysark.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -WXP checked ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -WXP checked . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=1;WINVER=0x0500"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="WXP checked (PREfast)|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Sysark.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -WXP checked . -cZ -prefast"
+				ReBuildCommandLine="$(DDKBUILD_PATH) -WXP checked . -cZ -prefast"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=1;WINVER=0x0500"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="WXP64 free|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Sysark.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -WXP64 free ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -WXP64 free . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=0;WINVER=0x0500;_WIN64"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="WXP64 checked|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Sysark.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -WXP64 checked ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -WXP64 checked . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=1;WINVER=0x0500;_WIN64"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="WXP64 checked (PREfast)|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Sysark.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -WXP64 checked . -cZ -prefast"
+				ReBuildCommandLine="$(DDKBUILD_PATH) -WXP64 checked . -cZ -prefast"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=1;WINVER=0x0500;_WIN64"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="WXP2K free|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Sysark.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -WXP2K free ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -WXP2K free . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=0;WINVER=0x0501"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="WXP2K checked|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Sysark.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -WXP2K checked ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -WXP2K checked . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=1;WINVER=0x0501"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="WXP2K checked (PREfast)|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Sysark.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -WXP2K checked . -cZ -prefast"
+				ReBuildCommandLine="$(DDKBUILD_PATH) -WXP2K checked . -cZ -prefast"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=1;WINVER=0x0501"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;asm;mc"
+			>
+			<File
+				RelativePath=".\DataDef.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\DriverModule.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\File.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Process.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ProcessModule.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ProcessThread.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Protection.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Services.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ShadowSSDT.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\SSDT.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Startup.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Sysark.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx"
+			>
+			<File
+				RelativePath=".\DataDef.h"
+				>
+			</File>
+			<File
+				RelativePath=".\DriverModule.h"
+				>
+			</File>
+			<File
+				RelativePath=".\File.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Ioctrls.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Process.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ProcessModule.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ProcessThread.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Protection.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Services.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ShadowSSDT.h"
+				>
+			</File>
+			<File
+				RelativePath=".\SSDT.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Startup.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Sysark.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="rc;mc;ico;cur;bmp;dlg;rc2"
+			>
+		</Filter>
+		<Filter
+			Name="Special Files"
+			Filter="*"
+			>
+			<File
+				RelativePath=".\ddkbldenv.cmd"
+				>
+			</File>
+			<File
+				RelativePath=".\ddkpostbld.cmd"
+				>
+			</File>
+			<File
+				RelativePath=".\ddkprebld.cmd"
+				>
+			</File>
+			<File
+				RelativePath=".\makefile"
+				>
+			</File>
+			<File
+				RelativePath=".\sources"
+				>
+			</File>
+			<File
+				RelativePath=".\Sysark.vsprops"
+				>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

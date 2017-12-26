@@ -1,0 +1,8 @@
+BUILD: Examining e:\qian\visual~1\rootkits\sysark\sysark directory for files to compile.
+oacr invalidate root:x86chk /autocleanqueue
+1>Compiling and Linking e:\qian\visual~1\rootkits\sysark\sysark *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>e:\qian\visual~1\rootkits\sysark\sysark: TARGETPATH is obj
+1> D:\WinDDK\760016~1.1\Bin\x86\oacr\oacrcl @e:\qian\visual~1\rootkits\sysark\sysark\objchk_win7_x86\i386\cl.rsp
+1>OACR NOTE : Not starting monitor (oacrcl running in job that doesn't allow break-away)
+1> D:\WinDDK\760016~1.1\Bin\x86\oacr\oacrlink /out:e:\qian\visual~1\rootkits\sysark\sysark\objchk_win7_x86\i386\Sysark.sys /machine:ix86 @e:\qian\visual~1\rootkits\sysark\sysark\objchk_win7_x86\i386\lnk.rsp

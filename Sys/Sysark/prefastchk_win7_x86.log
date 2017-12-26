@@ -1,0 +1,373 @@
+-----------------------------------------------------------------------------
+Microsoft (R) PREfast Version 9.0.21022.100208.
+Copyright (C) Microsoft Corporation. All rights reserved.
+-----------------------------------------------------------------------------
+Contents of defect log: PREfast_defects_chk_win7_x86.xml
+-----------------------------------------------------------------------------
+e:\qian\visual studio project\rootkits\sysark\sysark\datadef.cpp (110): warning 28170: The function 'GetFunctionNameByIndex' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: GetFunctionNameByIndex (110)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\datadef.cpp (168): warning 28719: Banned API Usage:  strcat is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: GetFunctionNameByIndex (110)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\datadef.cpp (182): warning 28170: The function 'MapFileAsSection' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: MapFileAsSection (182)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\datadef.cpp (72): warning 28170: The function 'GetUndocumentFuncAddrByName' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: GetUndocumentFuncAddrByName (72)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\datadef.cpp (83): warning 28170: The function 'IsProcess' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: IsProcess (83)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\drivermodule.cpp (16): warning 28175: The 'DriverSection' member of _DRIVER_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: EnumDriverModules (8)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\drivermodule.cpp (179): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: GetModuleName (166)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\drivermodule.cpp (206): warning 28719: Banned API Usage:  strcpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: GetModuleName (166)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\drivermodule.cpp (215): warning 6001: (PFD)Using uninitialized memory 'ulAddress'.
+	FUNCTION: GetModuleName (166)
+	PATH: 168 169 171 172 173 176 179 181 189 191 201 201 213 215 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\drivermodule.cpp (48): warning 6011: (PFD)Dereferencing NULL pointer 'pPreDriverModuleInfo'.
+	FUNCTION: EnumDriverModules (8)
+	PATH: 10 11 11 12 13 14 16 17 22 23 27 30 32 33 34 35 36 37 38 41 48 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (117): warning 28170: The function 'GetDirectoryInfo' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: GetDirectoryInfo (117)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (144): warning 28170: The function 'EnumDirectory' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: EnumDirectory (144)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (144): warning 6262: Function uses '1160' bytes of stack: exceeds /analyze:stacksize'1024'. Consider moving some data to heap
+	FUNCTION: EnumDirectory (144)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (166): warning 28719: Banned API Usage:  strcpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: EnumDirectory (144)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (167): warning 28719: Banned API Usage:  strcat is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: EnumDirectory (144)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (186): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: EnumDirectory (144)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (186): warning 6014: (PFD)Leaking memory 'lpInformation'.
+	FUNCTION: EnumDirectory (144)
+	PATH: 146 146 147 148 149 150 151 152 153 154 155 155 156 157 158 159 160 161 163 164 165 166 167 168 169 170 175 181 183 186 187 192 194 238 243 247 252 254 255 260 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (19): warning 28170: The function 'DeleteFile' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: DeleteFile (19)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (202): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: EnumDirectory (144)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (210): warning 6011: (PFD)Dereferencing NULL pointer 'lpInformation'. See line 188 for an earlier location where this can occur.
+	FUNCTION: EnumDirectory (144)
+	PATH: 146 146 147 148 149 150 151 152 153 154 155 155 156 157 158 159 160 161 163 164 165 166 167 168 169 170 175 181 183 186 187 192 196 201 202 203 205 207 208 210 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (226): warning 6011: (PFD)Dereferencing NULL pointer 'lpPreDirInfo'.
+	FUNCTION: EnumDirectory (144)
+	PATH: 146 146 147 148 149 150 151 152 153 154 155 155 156 157 158 159 160 161 163 164 165 166 167 168 169 170 175 181 183 186 187 192 196 201 202 203 205 207 208 210 211 212 213 214 215 216 217 219 226 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (265): warning 28170: The function 'MyIoCallDriver' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: MyIoCallDriver (265)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (276): warning 28159: Consider using 'error logging or driver shutdown' instead of 'KeBugCheckEx'. Reason: Whenever possible, all kernel-mode components should log an error and continue to run, rather than calling KeBugCheckEx.
+	FUNCTION: MyIoCallDriver (265)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (282): warning 28175: The 'MajorFunction' member of _DRIVER_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: MyIoCallDriver (265)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (287): warning 28170: The function 'EnumHandleCallBack' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: EnumHandleCallBack (287)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (312): warning 28170: The function 'ModifyRight' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: ModifyRight (312)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (317): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: ModifyRight (312)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (32): warning 28170: The function 'EventCompletion' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: EventCompletion (32)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (47): warning 28170: The function 'MyIoGetRelatedDeviceObject' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: MyIoGetRelatedDeviceObject (47)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (55): warning 28175: The 'Vpb' member of _DEVICE_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: MyIoGetRelatedDeviceObject (47)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (56): warning 28175: The 'Vpb' member of _DEVICE_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: MyIoGetRelatedDeviceObject (47)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (57): warning 28175: The 'Vpb' member of _DEVICE_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: MyIoGetRelatedDeviceObject (47)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (61): warning 28175: The 'AttachedDevice' member of _DEVICE_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: MyIoGetRelatedDeviceObject (47)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (67): warning 28170: The function 'GetDirectoryInfoCount' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: GetDirectoryInfoCount (67)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\file.cpp (83): warning 28170: The function 'FreePagedLookasideListForDirectory' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: FreePagedLookasideListForDirectory (83)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (150): warning 28170: The function 'GetPlantformDependentInfo' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: GetPlantformDependentInfo (150)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (157): warning 28159: Consider using 'RtlGetVersion' instead of 'PsGetVersion'. Reason: Obsolete.
+	FUNCTION: GetPlantformDependentInfo (150)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (210): warning 28170: The function 'GetProcessImagePath' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: GetProcessImagePath (210)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (248): warning 28193: 'Status' holds a value that must be examined.
+	FUNCTION: GetProcessImagePath (210)
+	PATH: 212 213 214 215 216 217 218 219 220 221 222 223 224 225 227 235 241 243 245 248 250 261 271 272 277 286 288 289 291 293 297 291 293 297 291 300 301 302 304 308 309 321 328 330 331 334 339 347 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (288): warning 6011: (PFD)Dereferencing NULL pointer 'imageName'. See line 279 for an earlier location where this can occur.
+	FUNCTION: GetProcessImagePath (210)
+	PATH: 212 213 214 215 216 217 218 219 220 221 222 223 224 225 227 235 241 243 245 248 250 261 271 272 277 286 288 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (302): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: GetProcessImagePath (210)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (321): warning 6011: (PFD)Dereferencing NULL pointer 'buffer'. See line 279 for an earlier location where this can occur.
+	FUNCTION: GetProcessImagePath (210)
+	PATH: 212 213 214 215 216 217 218 219 220 221 222 223 224 225 227 235 241 243 245 248 250 261 271 272 277 286 288 289 291 293 297 291 293 297 291 300 301 302 304 308 309 321 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (354): warning 28170: The function 'TerminateProcess' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: TerminateProcess (354)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (421): warning 28170: The function 'GetPspTerminateThread' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: GetPspTerminateThread (421)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (436): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: GetPspTerminateThread (421)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (436): warning 28197: Possibly leaking memory 'buf'.
+	FUNCTION: GetPspTerminateThread (421)
+	PATH: 423 423 424 425 426 427 428 429 430 431 432 433 433 433 433 435 436 441 442 444 445 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (465): warning 28170: The function 'IsHideProcess' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: IsHideProcess (465)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (492): warning 28170: The function 'IsExitProcess' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: IsExitProcess (492)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (570): warning 28170: The function 'FindByActiveProcessLinks' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: FindByActiveProcessLinks (570)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (603): warning 28170: The function 'EnumByCurrentProcessHandleTable' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: EnumByCurrentProcessHandleTable (603)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (630): warning 28170: The function 'GetPspCidTableAddress' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: GetPspCidTableAddress (630)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (649): warning 28170: The function 'RecordProcessInf' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: RecordProcessInf (649)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (678): warning 28170: The function 'ScanXpHandleTable' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: ScanXpHandleTable (678)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (814): warning 28170: The function 'GetPspTerminateThreadByPointer' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: GetPspTerminateThreadByPointer (814)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\process.cpp (87): warning 28170: The function 'EnumProcessByActiveProcess' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: EnumProcessByActiveProcess (87)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\processmodule.cpp (126): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: EnumProcessModuleByVM (58)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\services.cpp (256): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: QueryServiceRunType (223)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\services.cpp (266): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: QueryServiceRunType (223)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\services.cpp (272): warning 6011: (PFD)Dereferencing NULL pointer 'pKeyFullValueInfo'.
+	FUNCTION: QueryServiceRunType (223)
+	PATH: 225 226 227 228 228 228 228 229 229 230 231 232 246 251 255 256 258 259 262 262 265 266 268 270 348 350 351 262 262 265 266 268 270 272 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\services.cpp (53): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: EnumServices (7)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\services.cpp (61): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: EnumServices (7)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\services.cpp (70): warning 6011: (PFD)Dereferencing NULL pointer 'pKeyBasicInfo'.
+	FUNCTION: EnumServices (7)
+	PATH: 10 11 11 11 12 12 13 13 14 15 16 16 17 18 19 20 21 32 40 41 43 44 49 52 53 55 58 58 60 61 63 65 66 70 71 72 73 74 75 76 77 87 89 96 97 102 104 105 108 110 111 58 58 60 61 63 65 66 70 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\services.cpp (71): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: EnumServices (7)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\services.cpp (96): warning 6011: (PFD)Dereferencing NULL pointer 'pPreServicesInfo'.
+	FUNCTION: EnumServices (7)
+	PATH: 10 11 11 11 12 12 13 13 14 15 16 16 17 18 19 20 21 32 40 41 43 44 49 52 53 55 58 58 60 61 63 65 66 70 71 72 73 74 75 76 77 87 89 96 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\shadowssdt.cpp (470): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: GetWin32k (444)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\shadowssdt.cpp (496): warning 28719: Banned API Usage:  strcpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: GetWin32k (444)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\shadowssdt.cpp (56): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: EnumShadowSSDT (43)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\shadowssdt.cpp (59): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: EnumShadowSSDT (43)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\shadowssdt.cpp (633): warning 6001: (PFD)Using uninitialized memory 'Buffer'.
+	FUNCTION: LoadFileInShadow (511)
+	PATH: 536 537 538 539 540 541 547 553 565 576 582 627 629 630 633 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\shadowssdt.cpp (81): warning 6011: (PFD)Dereferencing NULL pointer 'g_pOriginalSSDTShadow'.
+	FUNCTION: EnumShadowSSDT (43)
+	PATH: 45 46 46 47 47 48 49 50 51 55 56 57 58 59 61 63 64 65 72 74 74 76 77 79 80 81 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\shadowssdt.cpp (98): warning 6011: (PFD)Dereferencing NULL pointer 'pPreShadowSSDTFuncInfo'.
+	FUNCTION: EnumShadowSSDT (43)
+	PATH: 45 46 46 47 47 48 49 50 51 55 56 57 58 59 61 63 64 65 72 74 74 76 77 79 80 81 83 87 88 89 91 98 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\ssdt.cpp (383): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: GetNtos (340)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\ssdt.cpp (39): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: EnumSSDT (26)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\ssdt.cpp (405): warning 28719: Banned API Usage:  strcat is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: GetNtos (340)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\ssdt.cpp (42): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: EnumSSDT (26)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\ssdt.cpp (536): warning 6001: (PFD)Using uninitialized memory 'Buffer'.
+	FUNCTION: LoadFile (414)
+	PATH: 439 440 441 442 443 444 450 456 468 479 485 530 532 533 536 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\ssdt.cpp (65): warning 6011: (PFD)Dereferencing NULL pointer 'g_pOriginalSSDT'.
+	FUNCTION: EnumSSDT (26)
+	PATH: 28 29 29 30 30 31 32 33 34 38 39 40 41 42 44 47 48 49 56 58 58 60 61 63 64 65 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\ssdt.cpp (81): warning 6011: (PFD)Dereferencing NULL pointer 'pPreSSDTFuncInfo'.
+	FUNCTION: EnumSSDT (26)
+	PATH: 28 29 29 30 30 31 32 33 34 38 39 40 41 42 44 47 48 49 56 58 58 60 61 63 64 65 67 70 71 72 74 81 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\startup.cpp (184): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: QuerySubKeyRegistryInfo (162)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\startup.cpp (194): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: QuerySubKeyRegistryInfo (162)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\startup.cpp (201): warning 6011: (PFD)Dereferencing NULL pointer 'pKeyBasicInfo'.
+	FUNCTION: QuerySubKeyRegistryInfo (162)
+	PATH: 164 165 166 167 167 167 167 168 169 170 174 179 183 184 186 187 190 190 193 194 196 201 202 203 204 205 206 208 211 213 214 216 218 219 190 190 193 194 196 201 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\startup.cpp (201): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: QuerySubKeyRegistryInfo (162)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\startup.cpp (291): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: QuerySubKeyInfo (262)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\startup.cpp (329): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: QuerySubKeyInfo (262)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\startup.cpp (332): warning 6011: (PFD)Dereferencing NULL pointer 'pKeyFullInfo'.
+	FUNCTION: QuerySubKeyInfo (262)
+	PATH: 264 265 266 267 267 267 267 268 268 269 270 271 272 273 279 284 287 328 329 331 332 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\startup.cpp (339): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: QuerySubKeyInfo (262)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\startup.cpp (348): warning 6011: (PFD)Dereferencing NULL pointer 'pKeyFullValueInfo'.
+	FUNCTION: QuerySubKeyInfo (262)
+	PATH: 264 265 266 267 267 267 267 268 268 269 270 271 272 273 279 284 287 328 329 331 332 335 335 338 339 341 343 368 370 371 335 335 338 339 341 343 345 346 348 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (102): warning 28170: The function 'IoDriverUnload' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: IoDriverUnload (102)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (120): warning 28175: The 'NextDevice' member of _DEVICE_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: IoDriverUnload (102)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (131): warning 28170: The function 'FreeAllPageLookasideLists' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: FreeAllPageLookasideLists (131)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (151): warning 28170: The function 'IoDispatchDeviceControl' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: IoDispatchDeviceControl (151)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (17): warning 28101: The Drivers module has inferred that the current function is a DRIVER_INITIALIZE function:  This is informational only. No problem has been detected.
+	FUNCTION: DriverEntry (17)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (215): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: IoDispatchDeviceControl (151)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (222): warning 6011: (PFD)Dereferencing NULL pointer 'pAllProcessInfo'.
+	FUNCTION: IoDispatchDeviceControl (151)
+	PATH: 153 153 154 154 155 156 157 157 157 158 159 160 161 162 163 166 169 170 171 172 173 175 177 206 208 212 213 215 216 219 220 222 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (248): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: IoDispatchDeviceControl (151)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (256): warning 6011: (PFD)Dereferencing NULL pointer 'pAllProcessModuleInf'.
+	FUNCTION: IoDispatchDeviceControl (151)
+	PATH: 153 153 154 154 155 156 157 157 157 158 159 160 161 162 163 166 169 170 171 172 173 175 177 241 243 246 247 248 249 250 251 252 254 256 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (26): warning 28155: The function being assigned or passed should be a DRIVER_UNLOAD function:  Add the declaration 'DRIVER_UNLOAD IoDriverUnload;' before the current first declaration of IoDriverUnload.
+	FUNCTION: DriverEntry (17)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (27): warning 28155: The function being assigned or passed should be a DRIVER_DISPATCH function:  Add the declaration 'DRIVER_DISPATCH HOSTZHEN_DispatchCreateClose;' before the current first declaration of HOSTZHEN_DispatchCreateClose.
+	FUNCTION: DriverEntry (17)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (27): warning 28169: The dispatch function 'HOSTZHEN_DispatchCreateClose' does not have any __drv_dispatchType annotations:  This can be corrected by adding appropriate __drv_dispatchType annotations to the function. Unnecessary casts can cause this warning.
+	FUNCTION: DriverEntry (17)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (282): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: IoDispatchDeviceControl (151)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (28): warning 28155: The function being assigned or passed should be a DRIVER_DISPATCH function:  Add the declaration 'DRIVER_DISPATCH HOSTZHEN_DispatchCreateClose;' before the current first declaration of HOSTZHEN_DispatchCreateClose.
+	FUNCTION: DriverEntry (17)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (28): warning 28169: The dispatch function 'HOSTZHEN_DispatchCreateClose' does not have any __drv_dispatchType annotations:  This can be corrected by adding appropriate __drv_dispatchType annotations to the function. Unnecessary casts can cause this warning.
+	FUNCTION: DriverEntry (17)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (290): warning 6011: (PFD)Dereferencing NULL pointer 'pAllProcessThreadInf'.
+	FUNCTION: IoDispatchDeviceControl (151)
+	PATH: 153 153 154 154 155 156 157 157 157 158 159 160 161 162 163 166 169 170 171 172 173 175 177 274 276 280 281 282 283 284 285 286 288 290 
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (29): warning 28155: The function being assigned or passed should be a DRIVER_DISPATCH function:  Add the declaration 'DRIVER_DISPATCH HOSTZHEN_DispatchCreateClose;' before the current first declaration of HOSTZHEN_DispatchCreateClose.
+	FUNCTION: DriverEntry (17)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (29): warning 28169: The dispatch function 'HOSTZHEN_DispatchCreateClose' does not have any __drv_dispatchType annotations:  This can be corrected by adding appropriate __drv_dispatchType annotations to the function. Unnecessary casts can cause this warning.
+	FUNCTION: DriverEntry (17)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (30): warning 28155: The function being assigned or passed should be a DRIVER_DISPATCH function:  Add the declaration 'DRIVER_DISPATCH HOSTZHEN_DispatchCreateClose;' before the current first declaration of HOSTZHEN_DispatchCreateClose.
+	FUNCTION: DriverEntry (17)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (30): warning 28169: The dispatch function 'HOSTZHEN_DispatchCreateClose' does not have any __drv_dispatchType annotations:  This can be corrected by adding appropriate __drv_dispatchType annotations to the function. Unnecessary casts can cause this warning.
+	FUNCTION: DriverEntry (17)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (31): warning 28155: The function being assigned or passed should be a DRIVER_DISPATCH function:  Add the declaration 'DRIVER_DISPATCH IoDispatchDeviceControl;' before the current first declaration of IoDispatchDeviceControl.
+	FUNCTION: DriverEntry (17)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (31): warning 28169: The dispatch function 'IoDispatchDeviceControl' does not have any __drv_dispatchType annotations:  This can be corrected by adding appropriate __drv_dispatchType annotations to the function. Unnecessary casts can cause this warning.
+	FUNCTION: DriverEntry (17)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (36): warning 28175: The 'Flags' member of _DRIVER_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: DriverEntry (17)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (667): warning 28170: The function 'HOSTZHEN_DispatchCreateClose' has been declared to be in a paged segment, but neither PAGED_CODE nor PAGED_CODE_LOCKED was found.
+	FUNCTION: HOSTZHEN_DispatchCreateClose (667)
+
+e:\qian\visual studio project\rootkits\sysark\sysark\sysark.cpp (74): warning 6014: (PFD)Leaking memory 'pDevObj'.
+	FUNCTION: CreateDevice (57)
+	PATH: 60 61 62 63 65 69 75 78 79 80 81 84 85 86 91 
+
+-----------------------------------------------------------------------------
+112 of 112 Defects Listed
+Filter in effect: drivers_recommended
+-----------------------------------------------------------------------------
+You can change the filter and sort options from the user interface.
+Enter PREFAST VIEW to display the defect log user interface.

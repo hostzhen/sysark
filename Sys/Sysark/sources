@@ -1,0 +1,14 @@
+# $Id$
+TARGETNAME=Sysark
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+
+# Create browse info
+#BROWSER_INFO=1
+#BROWSERFILE=<some path>
+
+# Additional defines for the C/C++ preprocessor
+C_DEFINES=$(C_DEFINES)
+
+SOURCES= Sysark.cpp DataDef.cpp Process.cpp ProcessModule.cpp ProcessThread.cpp File.cpp\
+		DriverModule.cpp Services.cpp Startup.cpp Protection.cpp SSDT.cpp ShadowSSDT.cpp
